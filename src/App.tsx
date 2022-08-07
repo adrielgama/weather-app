@@ -1,5 +1,6 @@
 import SocialMedia from "./components/SocialMedia";
 import Header from "./components/Header";
+import WeatherSection from "./components/Weather";
 
 import * as S from "./styles";
 import "./reset.css";
@@ -11,9 +12,7 @@ function App() {
         <Header />
       </S.Title>
       <S.Body>
-        <h1>Ok</h1>
-        <h1>Ok</h1>
-        <h1>Ok</h1>
+        <WeatherSection />
       </S.Body>
       <S.Footer>
         <SocialMedia />
